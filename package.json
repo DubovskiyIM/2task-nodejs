@@ -2,7 +2,7 @@
   "name": "20201013_112111",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon",
+    "start": "node .",
     "lint": "eslint ."
   },
   "main": "index.js",
@@ -10,8 +10,7 @@
   "devDependencies": {
     "eslint": "^7.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "nodemon": "^2.0.4"
+    "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
     "moment": "^2.29.1"
